@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Simule sua economia com energia solar. Projeto Iss.Solar em Paço do Lumiar e região." />
+  <title>Iss.Solar | Simulador de Energia Solar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body class="page">
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__brand">
+        <img class="topbar__logo" src="img/logo.jpeg" alt="Logo Iss.Solar" />
+        <span class="topbar__name">Iss.Solar</span>
+      </div>
+      <button class="topbar__toggle" type="button" aria-label="Abrir menu">
+        <span class="icon icon--menu" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img" focusable="false">
+            <path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+        Menu
+      </button>
+      <nav class="topbar__nav" aria-label="Navegação principal">
+        <a class="topbar__link" href="#inicio">Início</a>
+        <a class="topbar__link" href="#vantagens">Vantagens</a>
+        <a class="topbar__link" href="#trabalhos">Trabalhos</a>
+        <a class="topbar__link" href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn--whatsapp topbar__cta" href="https://wa.me/5598988502292?text=Olá%20Izael,%20quero%20simular%20minha%20economia%20com%20energia%20solar" target="_blank" rel="noreferrer">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img" focusable="false">
+            <path d="M20.5 11.8a8.5 8.5 0 0 1-12.5 7.4L4 20l.8-3.9A8.5 8.5 0 1 1 20.5 11.8Z" fill="none" stroke="currentColor" stroke-width="1.6" />
+            <path d="M9.4 8.6c.2-.4.3-.5.6-.6.2 0 .4 0 .6 0 .2 0 .4-.1.6.4.2.4.7 1.7.8 1.8.1.2.1.4 0 .5-.1.1-.2.3-.3.4-.1.1-.2.2-.1.4.1.2.5 1 .9 1.4.5.5 1.2.9 1.4 1 .2.1.3.1.4 0 .1-.1.4-.4.5-.6.1-.2.3-.1.5 0 .2.1 1.6.8 1.8.9.2.1.3.1.4.2.1.2.1 1-.2 1.5-.3.5-1.2 1-2 1-.8 0-1.8-.3-3.1-1-.4-.2-1.6-.9-2.7-2-1.1-1.2-1.6-2.2-1.8-2.7-.2-.5-.5-1.6-.2-2.2Z" fill="currentColor" />
+          </svg>
+        </span>
+        Simular no WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <div class="chip hero__chip">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M12 4v2M12 18v2M4 12h2M18 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4l1.4-1.4M17 7l1.4-1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" />
+                <circle cx="12" cy="12" r="4" fill="currentColor" />
+              </svg>
+            </span>
+            Simulação gratuita
+          </div>
+          <h1 class="hero__title">Energia solar para reduzir sua conta em até 95%</h1>
+          <p class="hero__text">Com o sol de Paço do Lumiar e região, você transforma o telhado em economia real. A Iss.Solar cuida do projeto, homologação e instalação completa.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#simulador">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M12 3l2.5 6.3H21l-5 3.7 1.9 6.7L12 16l-5.9 3.7 1.9-6.7-5-3.7h6.5L12 3Z" fill="currentColor" />
+                </svg>
+              </span>
+              Quero simular agora
+            </a>
+            <a class="btn btn--ghost" href="#trabalhos">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              Ver trabalhos
+            </a>
+          </div>
+          <div class="stats">
+            <div class="stats__item">
+              <span class="stats__value">5-6 anos</span>
+              <span class="stats__label">Sistema quitado; depois só taxa mínima de R$ 85.</span>
+            </div>
+            <div class="stats__item">
+              <span class="stats__value">Sem bateria</span>
+              <span class="stats__label">Você continua conectado à Equatorial. A rede é sua bateria.</span>
+            </div>
+            <div class="stats__item">
+              <span class="stats__value">Dia nublado</span>
+              <span class="stats__label">Produz menos, mas produz. Nosso sol compensa.</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__media reveal">
+          <div class="hero__glow"></div>
+          <img class="hero__image" src="img/animacao_homem_trabalhando.jpg" alt="Técnico instalando energia solar" />
+          <img class="hero__solar" src="img/animacao_solar.png" alt="Animação solar" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="vantagens">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2 class="section__title">Vantagens da energia solar com a Iss.Solar</h2>
+          <p class="section__subtitle">Mais controle financeiro, valorização do imóvel e energia limpa para sua rotina.</p>
+        </div>
+        <div class="benefits">
+          <article class="benefits__card reveal">
+            <span class="benefits__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M12 2v4M6 12H2M22 12h-4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" />
+                <circle cx="12" cy="12" r="4" fill="currentColor" />
+              </svg>
+            </span>
+            <h3 class="benefits__title">Economia imediata</h3>
+            <p class="benefits__text">Reduza drasticamente a fatura e proteja-se de aumentos tarifários.</p>
+          </article>
+          <article class="benefits__card reveal">
+            <span class="benefits__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M4 8h16v10H4z" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <path d="M9 8V5h6v3" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <path d="M8 13h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </span>
+            <h3 class="benefits__title">Projeto completo</h3>
+            <p class="benefits__text">Engenharia, homologação e instalação com equipe certificada.</p>
+          </article>
+          <article class="benefits__card reveal">
+            <span class="benefits__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M12 3l7 4v10l-7 4-7-4V7l7-4Z" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <path d="M9 12h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </span>
+            <h3 class="benefits__title">Valorização do imóvel</h3>
+            <p class="benefits__text">Imóveis com solar são mais atrativos e têm maior liquidez.</p>
+          </article>
+          <article class="benefits__card reveal">
+            <span class="benefits__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M3 12h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M7 6h10v12H7z" fill="none" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </span>
+            <h3 class="benefits__title">Monitoramento 24/7</h3>
+            <p class="benefits__text">Acompanhe a geração no celular e garanta o máximo desempenho.</p>
+          </article>
+          <article class="benefits__card reveal">
+            <span class="benefits__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M12 2v20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M6 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M6 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M6 17h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </span>
+            <h3 class="benefits__title">Financiamento acessível</h3>
+            <p class="benefits__text">Parcelas que cabem no bolso e substituem a conta de luz.</p>
+          </article>
+          <article class="benefits__card reveal">
+            <span class="benefits__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M6 18l3-3 3 3 6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 4h16v16H4z" fill="none" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </span>
+            <h3 class="benefits__title">Resultados comprovados</h3>
+            <p class="benefits__text">Portfólio real de instalações residenciais e comerciais.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="aviso">
+      <div class="container">
+        <div class="notice reveal">
+          <div class="notice__icon" aria-hidden="true">
+          </div>
+          <div class="notice__content">
+            <h3 class="notice__title">Aviso importante sobre a regra atual</h3>
+            <p class="notice__text">
+              Quem protocolar o projeto na Equatorial MA até 30/04 garante a compensação mais vantajosa.
+              Depois dessa data, a lei muda e a economia cai. Não perca dinheiro por esperar.
+            </p>
+            <a class="btn btn--primary notice__cta" href="https://wa.me/5598988502292?text=Olá%20Izael,%20quero%20garantir%20minha%20vaga%20na%20regra%20atual%20da%20Equatorial%20MA" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              Quero garantir minha vaga
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trabalhos">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2 class="section__title">Trabalhos realizados pela Iss.Solar</h2>
+          <p class="section__subtitle">Veja algumas instalações feitas pela nossa equipe em Paço do Lumiar e região.</p>
+        </div>
+        <div class="carousel reveal" data-carousel>
+          <button class="carousel__control carousel__control--prev" type="button" aria-label="Foto anterior">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </button>
+          <div class="carousel__viewport">
+            <div class="carousel__track">
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/6673a087-68f2-40a5-9831-6235ee0d3469.jpeg" alt="Projeto solar entregue pela Iss.Solar" loading="lazy" />
+              </figure>
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/WhatsApp%20Image%202026-04-09%20at%2014.36.32.jpeg" alt="Instalação solar residencial" loading="lazy" />
+              </figure>
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/WhatsApp%20Image%202026-04-09%20at%2014.36.35.jpeg" alt="Projeto solar comercial" loading="lazy" />
+              </figure>
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/WhatsApp%20Image%202026-04-09%20at%2014.36.36.jpeg" alt="Painéis solares instalados" loading="lazy" />
+              </figure>
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/WhatsApp%20Image%202026-04-09%20at%2014.38.19.jpeg" alt="Equipe Iss.Solar em obra" loading="lazy" />
+              </figure>
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/WhatsApp%20Image%202026-04-09%20at%2014.38.26.jpeg" alt="Sistema solar finalizado" loading="lazy" />
+              </figure>
+              <figure class="carousel__slide">
+                <img src="img/trabalhos_realizados/fc6ea922-ea62-4175-bb37-c77e2be77ea9.jpeg" alt="Instalação com painéis solares" loading="lazy" />
+              </figure>
+            </div>
+          </div>
+          <button class="carousel__control carousel__control--next" type="button" aria-label="Próxima foto">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__content reveal">
+          <h2 class="contact__title">Fale agora com a Iss.Solar</h2>
+          <p class="contact__text">Atendimento direto com o técnico responsável. Tire dúvidas, peça orçamento e descubra a melhor solução para sua casa ou empresa.</p>
+          <div class="contact__tags">
+            <span class="tag">Paço do Lumiar</span>
+            <span class="tag">São Luís</span>
+            <span class="tag">Maiobão</span>
+            <span class="tag">Cohatrac</span>
+          </div>
+          <div class="contact__social">
+            <a class="contact__social-link" href="https://www.instagram.com/iss.solar/" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6" />
+                  <circle cx="17" cy="7" r="1.5" fill="currentColor" />
+                </svg>
+              </span>
+              @iss.solar
+            </a>
+          </div>
+        </div>
+        <div class="contact__card reveal">
+          <div class="contact__card-header">
+            <span class="contact__eyebrow">Atendimento rápido</span>
+            <h3 class="contact__card-title">Simule sua economia agora</h3>
+          </div>
+          <p class="contact__card-text">Clique no botão abaixo e fale direto pelo WhatsApp para receber sua proposta personalizada.</p>
+          <a class="btn btn--whatsapp btn--block" href="https://wa.me/5598988502292?text=Olá%20Izael,%20quero%20fazer%20uma%20simulação%20de%20energia%20solar" target="_blank" rel="noreferrer">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M20.5 11.8a8.5 8.5 0 0 1-12.5 7.4L4 20l.8-3.9A8.5 8.5 0 1 1 20.5 11.8Z" fill="none" stroke="currentColor" stroke-width="1.6" />
+                <path d="M9.4 8.6c.2-.4.3-.5.6-.6.2 0 .4 0 .6 0 .2 0 .4-.1.6.4.2.4.7 1.7.8 1.8.1.2.1.4 0 .5-.1.1-.2.3-.3.4-.1.1-.2.2-.1.4.1.2.5 1 .9 1.4.5.5 1.2.9 1.4 1 .2.1.3.1.4 0 .1-.1.4-.4.5-.6.1-.2.3-.1.5 0 .2.1 1.6.8 1.8.9.2.1.3.1.4.2.1.2.1 1-.2 1.5-.3.5-1.2 1-2 1-.8 0-1.8-.3-3.1-1-.4-.2-1.6-.9-2.7-2-1.1-1.2-1.6-2.2-1.8-2.7-.2-.5-.5-1.6-.2-2.2Z" fill="currentColor" />
+              </svg>
+            </span>
+            Chamar no WhatsApp
+          </a>
+          <p class="contact__phone">WhatsApp: <strong>98 98850-2292</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img class="footer__logo" src="img/logo.jpeg" alt="Iss.Solar" />
+      <div class="footer__text">
+        <strong>Iss.Solar</strong>
+        <span>Energia que valoriza seu imóvel • © 2026</span>
+      </div>
+      <a class="footer__cta" href="https://www.instagram.com/iss.solar/" target="_blank" rel="noreferrer">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img" focusable="false">
+            <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" />
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6" />
+            <circle cx="17" cy="7" r="1.5" fill="currentColor" />
+          </svg>
+        </span>
+        Instagram
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

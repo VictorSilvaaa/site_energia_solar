@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Archivo", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #fef6dd 0%, #f7fbff 45%, #eef3ff 100%);
+  color: $ink;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(1200px, 92vw);
+  margin: 0 auto;
+}
+
+.page {
+  overflow-x: hidden;
+}

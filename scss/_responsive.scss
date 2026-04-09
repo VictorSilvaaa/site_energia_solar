@@ -1,0 +1,82 @@
+@use "variables" as *;
+
+@media (max-width: 1024px) {
+  .hero__inner,
+  .simulator,
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__media {
+    order: -1;
+  }
+
+  .benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer__inner > * {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .topbar__toggle {
+    display: inline-flex;
+  }
+
+  .topbar__nav {
+    position: absolute;
+    top: 70px;
+    right: 4vw;
+    background: $white;
+    border-radius: 16px;
+    box-shadow: $shadow-strong;
+    flex-direction: column;
+    padding: 16px;
+    display: none;
+  }
+
+  body.is-nav-open .topbar__nav {
+    display: flex;
+  }
+
+  .topbar__cta {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 50px 0 70px;
+  }
+
+  .notice {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel__control {
+    justify-self: center;
+  }
+}
